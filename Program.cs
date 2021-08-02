@@ -10,6 +10,8 @@ namespace nHibernateExample
     {
         static void Main(string[] args)
         {
+            NHibernateHelper.GenerateSchema();
+            Console.Read();
         }
     }
 }
